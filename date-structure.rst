@@ -10,16 +10,3 @@
     * Заголовок Authorization: ``Authorization: auth.sid <sessionId>`` - определяет идентификатор сессии, испольуется в заголовках после прохождения процесса авторизации
     В формате JSON:
 
-list-table::
-   :widths: 25 25 50
- * - Annotation Problem
-
-+------------+ 
-| {
-  "requestId": "client-request-12345",
-  "options": {
-    "type": "info",
-    "cadastralNumber": "47:14:1203001:814"
-  }
-}   |
-+============+ 
