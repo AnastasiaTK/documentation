@@ -6,7 +6,18 @@
 Для передачи структур в формате JSON, нужно передать следующий заголовки запроса:
 
     * Заголовок Host: ``Host: api.kontur.ru``
-    * Заголовок Content-Type: ``Content-Type: application/json`` -  указывается для передачи структур в формате JSON в теле запроса,
+    * Заголовок Content-Type: ``Content-Type: application/json`` -  указывается для передачи структур в формате JSON в теле запроса
+    * Заголовок Content-Length: ``Content-Length: 123`` -   указывает размер тела объекта в десятичном числе октетов (байтов)
     * Заголовок Authorization: ``Authorization: auth.sid <sessionId>`` - определяет идентификатор сессии, испольуется в заголовках после прохождения процесса авторизации
     В формате JSON:
 
+``
+{
+  "requestId": "client-request-12345",
+  "options": {
+    "type": "info",
+    "cadastralNumber": "47:14:1203001:814"
+  }
+}
+
+``
