@@ -9,9 +9,15 @@
     * Заголовок Content-Type: ``Content-Type: application/json`` -  указывается для передачи структур в формате JSON в теле запроса
     * Заголовок Content-Length: ``Content-Length: 123`` -   указывает размер тела объекта в десятичном числе октетов (байтов)
     * Заголовок Authorization: ``Authorization: auth.sid <sessionId>`` - определяет идентификатор сессии, испольуется в заголовках после прохождения процесса авторизации
-    В формате JSON:
+    
+    Пример запроса в формате JSON:
 
-``
+.. code-block:: bash
+POST /realty/v1/docflows/object_request HTTP/1.0
+Host: api.kontur.ru
+Content-Type: application/json
+Content-Length: 123
+Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
 {
   "requestId": "client-request-12345",
   "options": {
@@ -20,4 +26,3 @@
   }
 }
 
-``
