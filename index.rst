@@ -9,13 +9,6 @@
 
 
 .. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Порядок работы с API
-
-   Обзор возможностей API <obzor>
-
-.. toctree::
    :name: docflow
    :maxdepth: 1
    :caption: Документооборот
@@ -31,7 +24,7 @@
    :maxdepth: 1
    :caption: Объекты данных
 
-   Участник документооборота <howto/example_authorization>
+   Участник документооборота <objects/docflowmember>
    Объект недвижимости <howto/example_send_invoice>
    Документы <howto/example_receive_invoice>
    Адрес <howto/example_torg12>
@@ -72,5 +65,5 @@
 
    ReleaseNotes
 
-.. |image0| image:: _reestro.png
+.. |image0| image:: _img/reestro.png
 .. _image0: https://reestro.kontur.ru/
