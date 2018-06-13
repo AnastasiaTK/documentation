@@ -66,4 +66,5 @@
    ReleaseNotes
 
 .. |image0| image:: /img/reestro.png
+            :width: 500
 .. _image0: https://reestro.kontur.ru/
