@@ -1,9 +1,7 @@
 Документация API
 ================
 
-.. image:: /img/reestro.png
-   :width: 100
-   :alt: A screen capture showing the elements of the course outline in the LMS.
+|image0|_
 
  Контур.Реестро предназначен для онлайн взаимодействия с Росреестром в части регистрации прав и получения сведений.
 
@@ -67,5 +65,5 @@
 
    ReleaseNotes
 
-.. |image0| image:: _img/reestro.png
+    image0:: /img/reestro.png
 .. _image0: https://reestro.kontur.ru/
