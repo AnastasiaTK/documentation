@@ -1,5 +1,5 @@
 #############
-docflows/{docflowType}
+Создание документооборота
 #############
 
 Имя ресурса: **/docflows/{docflowType}**
