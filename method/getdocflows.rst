@@ -1,0 +1,32 @@
+#############
+docflow/{docflowId}
+#############
+Имя ресурса: **/docflow/{docflowId}**
+
+HTTP метод: **GET**
+
+Запрос документооборота позволяет получить события по конкретному, запрашиваемому документообороту - осуществляется методом ``GET/docflows/{docflowId}``.
+
+* docflowId: идентификатор документооборота
+
+Пример запроса
+
+.. code-block:: bash
+
+        GET /realty/v1/docflows/d20bd506-6325-43e1-b2e4-105ec5d63417 HTTP/1.0
+        Host: api.kontur.ru
+        Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+
+При успешном поиске, возвращается объект документооборота :ref:`DocflowNewsItem<response/docflowNewsItem>` в формате Json,
+ где содержится метаинформация, параметры указанные при генерации запроса (options). 
+ 
+:ref:`DocflowNewsItem<response/docflowNewsItem>` так же может содержать:
+
+* либо :ref:`result<response/result>` -  результат запроса в Росреестр 
+* либо :ref:`error<response/error>` - описание возникшей ошибки 
+* либо :ref:`requirements<response/requirements>` - описание действий, которые нужно совершить для продолжения обработки запроса
+
+**Возможные HTTP-коды возврата:**
+    * 404 - отсутствие документооборота с указанным docflowId,
+    * 200 - успешный поиск.
+
