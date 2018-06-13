@@ -20,6 +20,18 @@
 
 .. code-block:: bash 
 
-        POST /realty/v1/docflows/d20bd506-6325-43e1-b2e4-105ec5d63417 HTTP/1.0
-        Host: api.kontur.ru
-        Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+        HTTP/1.0 400 Bad Request
+        Content-Type: application/json
+        {
+          "code": "validation",
+          "message": "Failed to validate input request",
+          "target": "api",
+          "errors": [
+            { 
+            "code": "validation",
+            "message": "must not be null",
+            "target": "objectRequest.options.cadastralNumber"
+            }
+          ]
+        }
+
