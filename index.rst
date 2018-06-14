@@ -8,14 +8,15 @@
 Базовым уровнем интеграции с Реестро является его **HTTP-API** интерфейс.
 
 
+
 .. toctree::
-   :name: docflow
+   :name: main
    :maxdepth: 1
    :caption: Описание возможностей API
-   Порядок работы с API <procedure>
-   Типы докумунтооборотов <http/GetDocumentTypes>
-   Объекты данных <docflows/InvoiceDocflow>
 
+   Порядок работы с API <procedure>
+   Типы докумунтооборотов <requests/request>
+   Объекты данных <objects/objects>
 
 
 .. rubric:: Справочное руководство
