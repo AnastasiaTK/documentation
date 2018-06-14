@@ -11,36 +11,12 @@
 .. toctree::
    :name: docflow
    :maxdepth: 1
-   :caption: Документооборот
-   Порядок работы с API <pricedures>
+   :caption: Описание возможностей API
+   Порядок работы с API <procedure>
    Типы докумунтооборотов <http/GetDocumentTypes>
-   Выписки из ЕГРН <docflows/InvoiceDocflow>
-   Обременение <docflows/Torg12Docflow>
-   Переход права <docflows/AktDocflow>
-   Дополнительный пакет <docflows/UtdDocflow>
+   Объекты данных <docflows/InvoiceDocflow>
 
-.. toctree::
-   :name: examples
-   :maxdepth: 1
-   :caption: Объекты данных
 
-   Участник документооборота <objects/docflowmember>
-   Объект недвижимости <howto/example_send_invoice>
-   Документы <howto/example_receive_invoice>
-   Адрес <howto/example_torg12>
-   Содержимое файла (Content) <howto/example_acceptance_certificate>
-   Описание файла (File) <howto/example_acceptance_certificate>
-
-.. toctree::
-   :name: work
-   :maxdepth: 1
-   :caption: Техническая документация
-
-   Ошибки обработки запроса <DataStructures>
-   Требования к документообороту <Authorization>
-   Новости по изменению состояния документооборота <API_Invoices>
-   Событие на изменение статуса документооборота <API_UniversalTransferDocument>
-   Результат обработки документооборота <API_Documents>
 
 .. rubric:: Справочное руководство
 
