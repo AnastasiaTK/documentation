@@ -13,7 +13,7 @@
    :caption: Описание возможностей API
 
    Порядок работы с API <procedure>
-   Структура данных <date-structure>
+   Структура данных <dateStructure>
    Типы докумунтооборотов <requests/request>
    Объекты данных <objects/objects>
 
