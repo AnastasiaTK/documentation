@@ -3,7 +3,7 @@
 
 |image0|_
 
-.. |image0| image:: /img/reestro.png
+.. |image0| image:: /img/algoritm.png
 .. _image0: https://reestro.kontur.ru/
 
 
