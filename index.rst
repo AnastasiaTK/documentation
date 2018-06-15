@@ -20,28 +20,6 @@
    Объекты данных <objects/objects>
 
 
-.. rubric:: Справочное руководство
-
--  :doc:`Справочник HTTP-интерфейсов <procedure>`
--  :doc:`Справочник структур данных <protos>`
--  :doc:`Список HTTP-интерфейсов и структур данных <lists>`
-
-..
-  .. toctree::
-     :name: tech
-     :maxdepth: 1
-     :caption: Справочное руководство
-
-     http_methods
-     protos
-     lists
-
-.. toctree::
-   :name: others
-   :caption: История изменений
-   :titlesonly:
-
-   ReleaseNotes
 
 .. |image0| image:: /img/reestro.png
 .. _image0: https://reestro.kontur.ru/
