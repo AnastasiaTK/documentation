@@ -1,4 +1,4 @@
-Методы работы с API
+Как то назвать
 ================
 
 .. toctree::
@@ -12,7 +12,7 @@
 .. toctree::
    :name: response
    :maxdepth: 1
-   :caption:Данные ответов API
+   :caption: Данные ответов API
    :glob:
 
    response/*
