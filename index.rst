@@ -14,6 +14,7 @@
 
    Порядок работы с API <procedure>
    Структура данных <dateStructure>
+   Методы работы с API <list>
    Типы докумунтооборотов <requests/request>
    Объекты данных <objects/objects>
 
