@@ -12,16 +12,16 @@
     Пример запроса в формате JSON:
 
 .. code-block:: bash
-POST /realty/v1/docflows/object_request HTTP/1.0
-Host: api.kontur.ru
-Content-Type: application/json
-Content-Length: 123
-Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
-{
-  "requestId": "client-request-12345",
-  "options": {
-    "type": "info",
-    "cadastralNumber": "47:14:1203001:814"
-  }
-}
+            POST /realty/v1/docflows/object_request HTTP/1.0
+            Host: api.kontur.ru
+            Content-Type: application/json
+            Content-Length: 123
+            Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+            {
+              "requestId": "client-request-12345",
+              "options": {
+                "type": "info",
+                "cadastralNumber": "47:14:1203001:814"
+              }
+            }
 
