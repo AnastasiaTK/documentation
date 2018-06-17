@@ -16,7 +16,7 @@
    Структура данных <dateStructure>
    Методы работы с API <methodlist>
    Данные ответов API <responselist>
-   Типы докумунтооборотов <requests/request>
+   Типы докумунтооборотов <request>
    Объекты данных <objects/objects>
 
 
