@@ -17,7 +17,7 @@
    Методы работы с API <methodlist>
    Данные ответов API <responselist>
    Типы документооборотов <request>
-   Объекты данных <objects/objects>
+   Объекты данных <objects>
 
 
 
