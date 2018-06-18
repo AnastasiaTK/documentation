@@ -3,7 +3,7 @@ Representative
 
 Объект данных: **Representative**
 
-Содержит: *Описание представителя*
+Содержит: *Описание доверенного лица*
 
 Representative состоит из следующих данных:
 
@@ -27,63 +27,64 @@ Representative состоит из следующих данных:
 Пример
 .. code-block:: bash 
 
-      "representative":{
-        "representativeType": "confidant",
-        "person": {
-          "personId": "123",
-          "name": "Тест",
-          "surname": "Тестович",
-          "patronymic": "Тестов",
-          "dateBirth": "1972-04-07",
-          "birthPlace":"Иркутск",
-          "snils":"000-000-000-55",
-          "gender":"male",
-          "identityDocument":{
-            "documentType": "russPassport",
-            "series": "1234",
-            "number": "123456",
-            "issueDate": "2017-01-01",
-            "issuer": {
-              "code": "000-005",
-              "name":"МВД"
-            }
-          },
-          "citizenship": "Росийская Федерация",
-          "address":{
-            "kladr": "54018000032000100",
-            "region": "Новосибирская область",
-            "city": {
-              "abbreviation": "г",
-              "name":"Новосибирск"
-            },
-            "street": {
-              "abbreviation": "ул",
-              "name":"Челюскинцев"
-            },
-            "house": {
-              "type": "д",
-              "name":"14"
-            },
-            "apartment": {
-              "type": "кв",
-              "name":"81"
-            }
-          }
-        },
-        "attorney": {
-          "type": "powerOfAttorney",
-          "appliedDocument": {
-            "info":{
-              "type":"pdf",
-              "contentPointer": {
-                "id":"a9a5cca8-48fb-4f76-838a-7394a965c098",
-                "contentLink": "https://api.kontur.ru/realty/v1/contents/a9a5cca8-48fb-4f76-838a-7394a965c098"
+        ...
+        "representative":{
+          "representativeType": "confidant",
+          "person": {
+            "personId": "123",
+            "name": "Тест",
+            "surname": "Тестович",
+            "patronymic": "Тестов",
+            "dateBirth": "1972-04-07",
+            "birthPlace":"Иркутск",
+            "snils":"000-000-000-55",
+            "gender":"male",
+            "identityDocument":{
+              "documentType": "russPassport",
+              "series": "1234",
+              "number": "123456",
+              "issueDate": "2017-01-01",
+              "issuer": {
+                "code": "000-005",
+                "name":"МВД"
               }
             },
-            "signatures": [{
-              "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-              "contentLink":"https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
-            }]
-          } 
+            "citizenship": "Росийская Федерация",
+            "address":{
+              "kladr": "54018000032000100",
+              "region": "Новосибирская область",
+              "city": {
+                "abbreviation": "г",
+                "name":"Новосибирск"
+              },
+              "street": {
+                "abbreviation": "ул",
+                "name":"Челюскинцев"
+              },
+              "house": {
+                "type": "д",
+                "name":"14"
+              },
+              "apartment": {
+                "type": "кв",
+                "name":"81"
+              }
+            }
+          },
+          "attorney": {
+            "type": "powerOfAttorney",
+            "appliedDocument": {
+              "info":{
+                "type":"pdf",
+                "contentPointer": {
+                  "id":"a9a5cca8-48fb-4f76-838a-7394a965c098",
+                  "contentLink": "https://api.kontur.ru/realty/v1/contents/a9a5cca8-48fb-4f76-838a-7394a965c098"
+                }
+              },
+              "signatures": [{
+                "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
+                "contentLink":"https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
+              }]
+            } 
+          }
         }
-      }

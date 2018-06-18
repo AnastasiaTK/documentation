@@ -36,3 +36,10 @@ DocflowMember состоит из следующих данных:
 
 Если интересы участника представляет доверенное лицо, то также необходимо заполнить свойство *representative*
 
+.. toctree::
+   :name: objects
+   :maxdepth: 1
+   :caption: Типы
+   :glob:
+
+   docflowmember/*
