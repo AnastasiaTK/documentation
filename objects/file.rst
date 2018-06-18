@@ -7,18 +7,35 @@ File
 
 Описание файла состоит из описания самого файла и набора прикладываемых к нему подписей.
 
-File включает:
+File состоит из:
 
     * id - идентификатор файла
     * type - тип файла
-    * contentLink - ссылка на содержимое файла (ссылка на содержимое представлена следующим образом /realty/v1/docflows/docflowId/files/fileId)
-    * signatures - набор подписей для файла (:doc:`file-signature`[])
+    * contentLink - ссылка на содержимое файла (ссылка на содержимое представлена следующим образом ``/realty/v1/docflows/docflowId/files/fileId``)
+    * signatures - набор подписей для файла 
+
+
+
+*************
+signatures
+*************
+
+
+Объект данных: **FileSignatures**
+
+Содержит: *описание подписи для файла*
+
+FileSignatures состоит из:
+
+    * id - идентификатор подписи
+    * contentLink - ссылка на содержимое подписи (ссылка на содержимое представлена следующим образом ``/realty/v1/docflows/docflowId/files/fileId/signatures/signaturesId``)
+   
 
 Пример:
 
 .. code-block:: bash 
 
-        
+        ...
           {
           "result": {
             "files": [{
@@ -27,3 +44,4 @@ File включает:
               "contentLink": "https://api.kontur.ru/realty/v1/docflows/d20bd506-6325-43e1-b2e4-105ec5d63417/files/d4959ec6-47e6-4b5a-99ae-9591ec1918ad"
             }]
           }
+          ...

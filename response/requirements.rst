@@ -24,6 +24,7 @@ signature
 Пример:
 
 .. code-block:: bash 
+
         ...
         "requirements":{
           "signature":[{
@@ -91,7 +92,8 @@ payment
 
 Пример:
 
-.. code-block:: bash 
+.. code-block:: bash
+
         ...
         "requirements":{
         "payment": [{
