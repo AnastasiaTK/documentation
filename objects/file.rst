@@ -11,7 +11,7 @@ File состоит из:
 
     * id - идентификатор файла
     * type - тип файла
-    * contentLink - ссылка на содержимое файла (ссылка на содержимое представлена следующим образом ``/realty/v1/docflows/docflowId/files/fileId``)
+    * contentLink - ссылка на содержимое файла ``/realty/v1/docflows/docflowId/files/fileId``
     * signatures - набор подписей для файла 
 
 
@@ -28,7 +28,7 @@ signatures
 FileSignatures состоит из:
 
     * id - идентификатор подписи
-    * contentLink - ссылка на содержимое подписи (ссылка на содержимое представлена следующим образом ``/realty/v1/docflows/docflowId/files/fileId/signatures/signaturesId``)
+    * contentLink - ссылка на содержимое подписи ``/realty/v1/docflows/docflowId/files/fileId/signatures/signaturesId``
    
 
 Пример:
