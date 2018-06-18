@@ -39,7 +39,7 @@ DocflowMember состоит из следующих данных:
 .. toctree::
    :name: objects
    :maxdepth: 1
-   :caption: Типы
+   :caption: Содержит
    :glob:
 
    docflowmember/*
