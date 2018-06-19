@@ -64,9 +64,7 @@ Json запроса состоит из:
    :maxdepth: 1
    :caption: Описание примеров
 
-   Пример 1:  <procedure>
-   Структура данных <dateStructure>
-   Методы работы с API <methodlist>
-   Данные ответов API <responselist>
-   Типы документооборотов <request>
-   Объекты данных <objects>
+   Пример 1:  <rightmovement/example1>
+   Пример 2:  <rightmovement/example2>
+   Пример 3:  <rightmovement/example3>
+   Пример 4:  <rightmovement/example4>
