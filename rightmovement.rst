@@ -73,4 +73,3 @@ Json запроса состоит из:
    Пример 1:  <rightmovement/example1>
    Пример 2:  <rightmovement/example2>
    Пример 3:  <rightmovement/example3>
-   Пример 4:  <rightmovement/example4>
