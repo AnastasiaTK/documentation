@@ -50,7 +50,7 @@ Json запроса состоит из:
                 * spouse1: Описание  будующего собственника супруга  :doc:`objects/docflowmember`
                 * spouse2: Описание  будующего собственника супруга  :doc:`objects/docflowmember`
                 * mortgage: Если приобретение недвижимости осуществляется с помощью ипотеки в силу закона, необходимо приложить набор документов :doc:`objects/mortgage`
-                * marriageCertificate:  Свидетельство о браке (:doc:`objects/applied-document`)
+                * marriageCertificate:  Свидетельство о браке :doc:`objects/applied-document`
 
 .. Note::
     Для подтверждения факта браке необходимо предоставить Свидетельство о браке
@@ -63,7 +63,7 @@ Json запроса состоит из:
        * appliedDocuments: Описание прилагаемых документов для регистрации перехода права
 
             * contractOfSale: обязательным документом для регистрации продажи является договор купли продажи (:doc:`objects/applied-document`)
-            * other: (:doc:`objects/applied-document`[]) Другие документы
+            * other: Другие документы  :doc:`Authenticate v2 <./objects/applied-document>`
 
 .. toctree::
    :name: main
