@@ -4,13 +4,13 @@
 Выделяют нескольо типов ДО в росреестр. 
 Тип  соотвтествует государственной услуге, которая предоставляется в электронном виде через сервис прямого взаимодействия Росреестра.
 На данный момент API Контур.Реестро поддерживает следующие  типы документооборотов:
-    * object-request - :doc:`requests/object-request` (Запрос выписки из ЕГРН)
-    * rightmovement-request - :doc:`requests/rightmovement` (Регистрация перехода права)
+    * object-request - :doc:`object-request` 
+    * rightmovement-request - :doc:`rightmovement` 
 
 .. toctree::
-   :name: method
+   :name: main
    :maxdepth: 1
-   :caption: Виды запросов
-   :glob:
+   :caption: Описание возможностей API
 
-   request/*
+   Запрос выписки из ЕГРН <object-request>
+   Регистрация перехода права <rightmovement>

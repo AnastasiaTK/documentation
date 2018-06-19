@@ -58,12 +58,12 @@ Json запроса состоит из:
                 
             * sharedOwnership: Описание продавцов если они приобретают объект недвижимости в долевое владение
            
-                * shares: описание каждого дольщика ( :doc:`objects/share` [] )
+                * shares: описание каждого дольщика :doc:`objects/share` [] 
        
        * appliedDocuments: Описание прилагаемых документов для регистрации перехода права
 
             * contractOfSale: обязательным документом для регистрации продажи является договор купли продажи (:doc:`objects/applied-document`)
-            * other: Другие документы  :doc:`./applied-document`
+            * other: Другие документы  :doc:`objects/applied-document`
 
 .. toctree::
    :name: main
