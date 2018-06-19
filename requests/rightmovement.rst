@@ -20,12 +20,12 @@ Json запроса состоит из:
         
             * individualOwnership  Описание продавца если он владеет объектом недвижимости единолично включает
 
-                * owner: Описание собственника :doc:`docflowmember`
+                * owner: Описание собственника :doc:`objects/docflowmember`
 
             * cooperativeOwnership: Описание продавцов если объект недвижимости находится в совместной собственности включает: 
 
-                * spouse1:  описание свдедений о супруге ( :doc:`objects/docflowmember` )
-                * spouse2:  описание свдедений о супруге (:doc:`objects/docflowmember`)
+                * spouse1:  описание свдедений о супруге :doc:`objects/docflowmember`
+                * spouse2:  описание свдедений о супруге :doc:`objects/docflowmember`
             
             * sharedOwnership:Описание продавцов если объект недвижимости находится в долевом владение включает
             
@@ -42,13 +42,13 @@ Json запроса состоит из:
             
             * individualOwnership  Описание продавца если он приобретает объект недвижимости в единоличное владение
 
-                * owner: Описание  будующего собственника  (:doc:`objects/docflowmember`)
+                * owner: Описание  будующего собственника  :doc:`objects/docflowmember`
                 * mortgage: Если приобретение недвижимости осуществляется с помощью ипотеки в силу закона, необходимо приложить набор документов :doc:`objects/mortgage`
             
             * cooperativeOwnership  Описание продавцов если они приобретают объект недвижимости в совместное владение
 
-                * spouse1: Описание  будующего собственника супруга  (:doc:`objects/docflowmember`)
-                * spouse2: Описание  будующего собственника супруга  (:doc:`objects/docflowmember`)
+                * spouse1: Описание  будующего собственника супруга  :doc:`objects/docflowmember`
+                * spouse2: Описание  будующего собственника супруга  :doc:`objects/docflowmember`
                 * mortgage: Если приобретение недвижимости осуществляется с помощью ипотеки в силу закона, необходимо приложить набор документов :doc:`objects/mortgage`
                 * marriageCertificate:  Свидетельство о браке (:doc:`objects/applied-document`)
 
