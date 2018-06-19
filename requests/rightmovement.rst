@@ -63,7 +63,7 @@ Json запроса состоит из:
        * appliedDocuments: Описание прилагаемых документов для регистрации перехода права
 
             * contractOfSale: обязательным документом для регистрации продажи является договор купли продажи (:doc:`objects/applied-document`)
-            * other: Другие документы  :doc:`Authenticate v2 <./objects/applied-document>`
+            * other: Другие документы  :doc:`./objects/applied-document`
 
 .. toctree::
    :name: main
