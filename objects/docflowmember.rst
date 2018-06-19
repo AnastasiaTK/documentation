@@ -8,9 +8,9 @@ DocflowMember
 DocflowMember состоит из следующих данных:
 
     * benefitCategory - льготная категория 
-    * person - описание физического лица (:doc:`docflowmember/person`)
-    * organization - описание оргнизации (:doc:`docflowmember/organization`)
-    * representative - доверенное лицо, которое представляет интересы звявителя (:doc:`docflowmember/representative`)
+    * person - описание физического лица (:doc:`person`)
+    * organization - описание оргнизации (:doc:`organization`)
+    * representative - доверенное лицо, которое представляет интересы звявителя (:doc:`representative`)
 
 
 Росреестр предоставляет льготы на начисление пошлин следующим категориям граждан. 
@@ -36,10 +36,4 @@ DocflowMember состоит из следующих данных:
 
 Если интересы участника представляет доверенное лицо, то также необходимо заполнить свойство *representative*
 
-.. toctree::
-   :name: objects
-   :maxdepth: 1
-   :caption: Содержит
-   :glob:
 
-   docflowmember/*

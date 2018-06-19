@@ -12,7 +12,7 @@ Representative состоит из следующих данных:
     * attorney - Доверенность представителя, доверенность представителя состоит из следующих данных:
 
         * type - тип доверенности (powerOfAttorney - доверенность, powerOfAttorneyBankRepresentative - доверенность банковского представителя)
-        * appliedDocument - описание вложенного файла (:doc:`objects/content`)
+        * appliedDocument - описание вложенного файла (:doc:`content`)
 
 Представитель может относиться к одному из следующих типов
 
