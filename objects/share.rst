@@ -7,7 +7,7 @@ Share
 
 Share состоит из:
   
-    * owner: :doc:`objects/docflowmember` описания собственника 
+    * owner: :doc:`docflowmember` описания собственника 
     * share:  доли собственника в долевой собственности:
 
         * numerator: ``string`` числителя
