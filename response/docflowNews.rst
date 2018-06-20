@@ -7,5 +7,5 @@ DocflowNews
 
 DocflowNews состоит:
 
-  * :doc:`docflowNewsItem`[] - из массива новостей по документооборотам 
+  * docflowNewsItem - :doc:`docflowNewsItem`[] из массива новостей по документооборотам 
   * lastToken - токена, с которого необходимо продолжить вычитывание новостей

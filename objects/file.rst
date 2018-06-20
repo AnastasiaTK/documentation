@@ -9,10 +9,10 @@ File
 
 File состоит из:
 
-    * id - идентификатор файла
-    * type - тип файла
-    * contentLink - ссылка на содержимое файла ``/realty/v1/docflows/docflowId/files/fileId``
-    * signatures - набор подписей для файла 
+    * id: ``string`` идентификатор файла
+    * type: ``string`` тип файла
+    * contentLink: ссылка на содержимое файла ``/realty/v1/docflows/docflowId/files/fileId``
+    * signatures: ``FileSignatures[]`` набор подписей для файла 
 
 
 
@@ -27,8 +27,8 @@ signatures
 
 FileSignatures состоит из:
 
-    * id - идентификатор подписи
-    * contentLink - ссылка на содержимое подписи ``/realty/v1/docflows/docflowId/files/fileId``
+    * id: ``string`` идентификатор подписи
+    * contentLink: ссылка на содержимое подписи ``/realty/v1/docflows/docflowId/files/fileId``
    
 
 Пример:

@@ -18,10 +18,10 @@ signature
 
 требоване signature Содержит:
 
-    * person - физическое лицо, которое подает документы ( :ref:`Person<objects/person>`.)
-    * files[] - набор файлов, которые требуется подписать ( :ref:`FilePointer[]<objects/filePointer>`.)
+    * person - физическое лицо :doc:`objects/person`, которое подает документы.
+    * files[] - набор файлов :doc:`objects/filePointer`, которые требуется подписать.
 
-Пример:
+Пример: 
 
 .. code-block:: bash 
 

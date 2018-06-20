@@ -28,7 +28,7 @@ Json запроса состоит из:
 
     * *cooperativeOwnership*: Описание продавцов если объект недвижимости находится в совместной собственности включает: 
 
-        * spouse1:  описание свдедений о супруге :doc:`objects/docflowmember`
+        * :sub:`spouse1`:  описание свдедений о супруге :doc:`objects/docflowmember`
         * spouse2:  описание свдедений о супруге :doc:`objects/docflowmember`
             
     * *sharedOwnership*:Описание продавцов если объект недвижимости находится в долевом владение включает
