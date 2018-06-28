@@ -19,7 +19,12 @@
    Типы документооборотов <request>
    Объекты данных <objects>
 
+.. toctree::
+   :name: findObject
+   :maxdepth: 1
+   :caption:  API поиска Объекта по базе ФИАС
 
+   Поиск кадастрового номера по структурированному адресу <findobject>
 
 .. |image0| image:: /img/reestro.png
 .. _image0: https://reestro.kontur.ru/
