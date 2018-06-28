@@ -10,7 +10,7 @@
 .. toctree::
    :name: main
    :maxdepth: 1
-   :caption: Описание возможностей API
+   :caption: API для взаимодействия с Росреестром
 
    Порядок работы с API <procedure>
    Структура данных <dateStructure>
