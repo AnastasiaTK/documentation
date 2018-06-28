@@ -20,9 +20,9 @@
    Объекты данных <objects>
 
 .. toctree::
-   :name: findObject
+   :name: fias
    :maxdepth: 1
-   :caption:  API поиска Объекта по базе ФИАС
+   :caption: API поиска Объекта по базе ФИАС
 
    Поиск кадастрового номера по структурированному адресу <findobject>
 
