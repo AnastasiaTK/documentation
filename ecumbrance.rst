@@ -43,20 +43,6 @@ Json запроса состоит из:
     * *mortgageAgreement*: договор ипотеки ``обязательный``:doc:`objects/applied-document`
     * *other*: Другие документы  :doc:`objects/appliedDocument`
 
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание примеров
-
-   Пример 1:  <ecumbrance/example1>
-
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание типа в Raml
-
-   RightMovementRequestPost:  <raml/ecumbranceRequestPost>
-
 *************
 Результирующие документы
 *************
@@ -103,4 +89,17 @@ Json запроса состоит из:
     Если данный документ не будет предоставлен, сотруудник Росреестра будет запрашивать свидетельство о браке в ЗАГСе, что может занять от 7 до 30 дней
 
 
+.. toctree::
+   :name: main
+   :maxdepth: 1
+   :caption: Описание примеров
+
+   Пример 1:  <ecumbrance/example1>
+
+.. toctree::
+   :name: main
+   :maxdepth: 1
+   :caption: Описание типа в Raml
+
+   RightMovementRequestPost:  <raml/ecumbranceRequestPost>
 

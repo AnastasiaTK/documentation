@@ -70,22 +70,6 @@ Json запроса состоит из:
             * *contractOfSale*: обязательным документом для регистрации продажи является договор купли продажи :doc:`objects/applied-document`
             * *other*: Другие документы  :doc:`objects/appliedDocument`
 
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание примеров
-
-   Пример 1:  <rightmovement/example1>
-   Пример 2:  <rightmovement/example2>
-   Пример 3:  <rightmovement/example3>
-
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание типа в Raml
-
-   RightMovementRequestPost:  <raml/rightMovementRequestPost>
-
 *************
 Результирующие документы
 *************
@@ -153,3 +137,18 @@ Json запроса состоит из:
  .. important::
     Договоры купли - продажи должны быть заверены наториально если: его предметом является продажа долевой собственности или приобретение в долевую собственность. 
 
+.. toctree::
+   :name: main
+   :maxdepth: 1
+   :caption: Описание примеров
+
+   Пример 1:  <rightmovement/example1>
+   Пример 2:  <rightmovement/example2>
+   Пример 3:  <rightmovement/example3>
+
+.. toctree::
+   :name: main
+   :maxdepth: 1
+   :caption: Описание типа в Raml
+
+   RightMovementRequestPost:  <raml/rightMovementRequestPost>
