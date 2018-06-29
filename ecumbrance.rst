@@ -85,15 +85,11 @@ Json запроса состоит из:
 Описание примеров
 *************
 
-   Пример 1:  :doc:`ecumbrance/example1`
+  :doc:`ecumbrance/example1`
 
 *************
 Описание типа в Raml
 *************
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: 
 
    :doc:`raml/ecumbranceRequestPost`
 
