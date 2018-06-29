@@ -81,18 +81,24 @@ Json запроса состоит из:
 .. tip::
     Если данный документ не будет предоставлен, сотрудник Росреестра будет запрашивать свидетельство о браке в ЗАГСе, что может занять от 7 до 30 дней
 
+*************
+Описание примеров
+*************
 
 .. toctree::
    :name: main
    :maxdepth: 1
-   :caption: Описание примеров
+   :caption: 
 
    Пример 1:  <ecumbrance/example1>
 
+*************
+Описание типа в Raml
+*************
 .. toctree::
    :name: main
    :maxdepth: 1
-   :caption: Описание типа в Raml
+   :caption: 
 
    RightMovementRequestPost:  <raml/ecumbranceRequestPost>
 
