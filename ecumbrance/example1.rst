@@ -20,24 +20,23 @@
           "city": {
             "name": "Новосибирск",
             "abbreviation": "г"
-            },
-            "street": {
-              "name": "Челюскинцев",
-              "abbreviation": "ул"
-            },
-            "house": {
-              "name": "14",
-              "type": "д"
-            },
-            "apartment": {
-              "type": "кв",
-              "name": "81"
-            }
           },
-          "area": {
-            "value": "56",
-            "unit": "кв.м"
+          "street": {
+            "name": "Челюскинцев",
+            "abbreviation": "ул"
+          },
+          "house": {
+            "name": "14",
+            "type": "д"
+          },
+          "apartment": {
+            "type": "кв",
+            "name": "81"
           }
+        },
+        "area": {
+          "value": "56",
+          "unit": "кв.м"
         }
       }],
       "whoseRightRestricted": {
@@ -148,8 +147,9 @@
               "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
               "contentLink": "https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
             }]
-          },
+          }
         }
       }
     }
+  }
  
