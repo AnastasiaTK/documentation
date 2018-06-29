@@ -39,8 +39,8 @@ Json запроса состоит из:
 
 4 **appliedDocuments**: Описание прилагаемых документов для регистрации обременения
 
-    * *loanAgreement*: кредитный договор :doc:`objects/applied-document`
-    * *mortgageAgreement*: договор ипотеки ``обязательный``:doc:`objects/applied-document`
+    * *loanAgreement*: кредитный договор :doc:`objects/appliedDocument`
+    * *mortgageAgreement*: договор ипотеки ``обязательный``:doc:`objects/appliedDocument`
     * *other*: Другие документы  :doc:`objects/appliedDocument`
 
 *************
@@ -85,12 +85,7 @@ Json запроса состоит из:
 Описание примеров
 *************
 
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: 
-
-   Пример 1:  <ecumbrance/example1>
+   Пример 1:  :doc:`ecumbrance/example1`
 
 *************
 Описание типа в Raml
@@ -100,5 +95,5 @@ Json запроса состоит из:
    :maxdepth: 1
    :caption: 
 
-   RightMovementRequestPost:  <raml/ecumbranceRequestPost>
+   :doc:`raml/ecumbranceRequestPost`
 
