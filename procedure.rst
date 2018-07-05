@@ -19,7 +19,7 @@ API Контур.Реестро представляет собой HTTP сер�
 
 |image0|_
 
-.. |image0| image:: /img/algoritm.png
+.. |image0| image:: /img/logo.png
 .. _image0: https://reestro.kontur.ru/
 
 

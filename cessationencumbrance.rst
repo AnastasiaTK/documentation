@@ -39,7 +39,7 @@ Json запроса состоит из:
 
         * encumbrancer: залогодержатель :doc:`objects/docflowmember`
 
-5 **appliedDocuments**: Описание прилагаемых документов для регистрации обременения
+5 **appliedDocuments**: Описание прилагаемых документов для снятия обременения
 
     * *other*: Другие документы  :doc:`objects/appliedDocument`
 

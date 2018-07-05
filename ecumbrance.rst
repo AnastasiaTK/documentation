@@ -30,7 +30,7 @@ Json запроса состоит из:
 
         * owner: Описание  будующего собственника  :doc:`objects/docflowmember`
             
-    * *cooperativeOwnership*  Описание правообладателя если они владеют объектом недвижимости совместно включает
+    * *cooperativeOwnership*  Описание правообладателей если они владеют объектом недвижимости совместно включает
 
         * spouse1: Описание собственника супруга  :doc:`objects/docflowmember`
         * spouse2: Описание  собственника супруга  :doc:`objects/docflowmember`
