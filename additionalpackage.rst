@@ -19,7 +19,7 @@
 Описание примеров
 *************
 
-  :doc:`ecumbrance/example1`
+  :doc:`additionalpackage/example1`
 
 *************
 Описание типа в Raml
