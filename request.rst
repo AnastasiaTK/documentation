@@ -14,10 +14,10 @@
    :maxdepth: 1
    :caption: Типы документооборотов
 
-   Запрос выписки из ЕГРН <object-request>
-   Регистрация перехода права <rightmovement>
-   Регистрация обременения объекта недвижимости <ecumbrance>
-   cessationencumbrance_request - снятие обременения с объекта недвижимости <cessationencumbrance>
+   object_request - запрос выписки из ЕГРН <object-request>
+   rightmovement_request - регистрация перехода права <rightmovement>
+   encumbrance_request - регистрация обременения ОН <ecumbrance>
+   cessationencumbrance_request - снятие обременения с ОН <cessationencumbrance>
 
 
 В тело метода должен быть помещен json запроса, в котором содержатся необходимые данные для инициализации документооборота.

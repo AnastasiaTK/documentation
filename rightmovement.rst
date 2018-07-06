@@ -1,7 +1,7 @@
 Регистрация перехода права
 ================
 
-Тип Документооборота ``docflowType``: **rightmovement_request**
+Тип Документооборота (docflowType): *rightmovement_request*
 
 Параметры (options) документооборота ``rightmovement_request`` включают в себя следующие данные:
        
