@@ -12,7 +12,7 @@
 2 additionalDocuments - набор досылаемых документов от каждого участника сделки включает в себя:
 
     * docflowMember - описание участника документооборота  :doc:`objects/docflowmember`, от лица которого подаются файлы 
-    * additionalDocuments  - набор досылаемых файлов :doc:`objects/appliedDocument` []
+    * documents  - набор досылаемых файлов :doc:`objects/appliedDocument` []
 
 
 *************
