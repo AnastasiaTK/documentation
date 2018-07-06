@@ -26,5 +26,5 @@
 
    Поиск кадастрового номера по структурированному адресу <findobject>
 
-.. |image0| image:: /img/reestro.png
+.. |image0| image:: /img/logo.png
 .. _image0: https://reestro.kontur.ru/
