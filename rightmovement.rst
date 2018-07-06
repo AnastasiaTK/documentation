@@ -17,7 +17,7 @@
 
     * *cooperativeOwnership*: Описание продавцов если объект недвижимости находится в совместной собственности включает: 
 
-        * :sub:`spouse1`:  описание свдедений о супруге :doc:`objects/docflowmember`
+        * spouse1:  описание свдедений о супруге :doc:`objects/docflowmember`
         * spouse2:  описание свдедений о супруге :doc:`objects/docflowmember`
             
     * *sharedOwnership*:Описание продавцов если объект недвижимости находится в долевом владении включает
