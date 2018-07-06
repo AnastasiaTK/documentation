@@ -1,6 +1,7 @@
 CessationEncumbranceRequest
 ================
 
+
 .. code-block:: bash 
     #%RAML 1.0 DataType
     displayName: AdditionalPackageRequestPost
@@ -19,9 +20,11 @@ CessationEncumbranceRequest
               type: AdditionalDocuments[]
               description: Набор документов досылаемых от каждого участника документооборота
 
+
 *************
 AdditionalDocuments
 *************
+
 
 .. code-block:: bash 
     displayName: AdditionalDocuments
