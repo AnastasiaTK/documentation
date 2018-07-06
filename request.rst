@@ -18,6 +18,7 @@
    rightmovement_request - регистрация перехода права <rightmovement>
    encumbrance_request - регистрация обременения ОН <ecumbrance>
    cessationencumbrance_request - снятие обременения с ОН <cessationencumbrance>
+   additionalpackage_request - досыл дополнительного пакета <additionalpackage>
 
 
 В тело метода должен быть помещен json запроса, в котором содержатся необходимые данные для инициализации документооборота.
