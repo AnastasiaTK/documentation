@@ -12,3 +12,5 @@ Mortgage содержит следующие типы документов:
     * mortgage: :doc:`appliedDocument` Закладная (Если указано в кредитном договоре) 
     * evaluationReport: :doc:`appliedDocument` Оценка рыночной стоимости недвижимости (обязательно при наличии закладной) 
     * powerOfAttorneyBankRepresentative:  :doc:`appliedDocument` Доверенность на представителя от Банка, подписывающего кредитный договор  
+
+

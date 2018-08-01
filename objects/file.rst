@@ -15,11 +15,9 @@ File состоит из:
     * signatures: ``FileSignatures[]`` набор подписей для файла 
 
 
-
 *************
 signatures
 *************
-
 
 Объект данных: **FileSignatures**
 
@@ -49,3 +47,4 @@ FileSignatures состоит из:
               }]
             }
           ...
+
