@@ -15,6 +15,7 @@
    :caption: Типы документооборотов
 
    object_request - запрос выписки из ЕГРН <object-request>
+   equityagreement_request - отправка сопроводительных запросов <equityagreement>
    rightmovement_request - регистрация перехода права <rightmovement>
    encumbrance_request - регистрация обременения ОН <ecumbrance>
    cessationencumbrance_request - снятие обременения с ОН <cessationencumbrance>
