@@ -30,7 +30,7 @@ ctionRequestPost
                   type: AppliedDocument
                   description: проектная декларация
                 buildPlan: 
-                  type: AppliedDocument
+                  type: :doc:`objects/appliedDocument`
                   description: план создаваемого объекта недвижимого имущества
         buyer:
           description: Участники ДДУ
@@ -58,17 +58,17 @@ ctionRequestPost
                 marriageCertificate?:
                   type: AppliedDocument
                   description: Свидетельство о браке
-        sharedOwnership?:
-          description: Продаваемый объект находится в долевом владение
+           sharedOwnership?:
+              description: Продаваемый объект находится в долевом владение
+              properties:
+                shares:
+                  type: Share[]
+        appliedDocuments:
+          description: Прилагаемые документы
           properties:
-            shares:
-              type: Share[]
-    appliedDocuments:
-      description: Прилагаемые документы
-      properties:
-        equityAgreement:
-          type: AppliedDocument
-          description: Договор купли-продажи
-        other?:
-          type: AppliedDocument[]
-          description: Другие документы
+            equityAgreement:
+              type: AppliedDocument
+              description: Договор купли-продажи
+            other?:
+              type: AppliedDocument[]
+              description: Другие документы
