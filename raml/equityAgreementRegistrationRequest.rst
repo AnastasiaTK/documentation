@@ -1,4 +1,4 @@
-ctionRequestPost
+EquityAgreementRegistrationRequest
 ================
 
 .. code-block:: bash 
@@ -30,7 +30,7 @@ ctionRequestPost
                   type: AppliedDocument
                   description: проектная декларация
                 buildPlan: 
-                  type: :doc:`objects/appliedDocument`
+                  type: AppliedDocument
                   description: план создаваемого объекта недвижимого имущества
         buyer:
           description: Участники ДДУ
