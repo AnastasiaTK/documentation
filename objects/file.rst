@@ -16,7 +16,7 @@ File состоит из:
 
 
 *************
-signatures
+FileSignatures
 *************
 
 Объект данных: **FileSignatures**

@@ -7,5 +7,9 @@
    :caption: Данные ответов API
    :glob:
 
-   response/*
+    Описание новостей <docflowNews>
+    Описание документооборота <docflowNewsItem>
+    Ошибки <error>
+    Результаты документооборота <result>
+    Требования к документообороту <requirements>
 

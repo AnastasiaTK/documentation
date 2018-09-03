@@ -31,5 +31,5 @@ DocflowNewsItem
    :maxdepth: 1
    :caption: Данные описывающие состояние докуентооборота
    Требования к ДО <requirements>
-   Ошибки отправки ДО error>
+   Ошибки отправки ДО <error>
    Результат обработки ДО <result>
