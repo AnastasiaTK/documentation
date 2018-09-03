@@ -17,13 +17,13 @@ HTTP метод: **GET**
         Host: api.kontur.ru
         Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
 
-При успешном поиске, возвращается объект документооборота :ref:`DocflowNewsItem<response/docflowNewsItem>` в формате Json, где содержится метаинформация, параметры указанные при генерации запроса (options). 
+При успешном поиске, возвращается объект документооборота :ref:`DocflowNewsItem<docflowNewsItem>` в формате Json, где содержится метаинформация, параметры указанные при генерации запроса (options). 
  
 :ref:`DocflowNewsItem<response/docflowNewsItem>` так же может содержать:
 
-* либо :ref:`result<response/result>` -  результат запроса в Росреестр 
-* либо :ref:`error<response/error>` - описание возникшей ошибки 
-* либо :ref:`requirements<response/requirements>` - описание действий, которые нужно совершить для продолжения обработки запроса
+* либо :ref:`result<result>` -  результат запроса в Росреестр 
+* либо :ref:`error<error>` - описание возникшей ошибки 
+* либо :ref:`requirements<requirements>` - описание действий, которые нужно совершить для продолжения обработки запроса
 
 **Возможные HTTP-коды возврата:**
     * 404 - отсутствие документооборота с указанным docflowId,

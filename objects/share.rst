@@ -13,15 +13,6 @@ Share состоит из:
         * numerator: ``string`` числителя
         * denumerator: ``string`` знаменателя
 
-Пример
 
-.. code-block:: bash 
-
-        ...
-            "share": {
-              "numerator": "1",
-              "denominator": "3"
-            }
-          ...
 
 
