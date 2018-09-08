@@ -38,7 +38,7 @@ EquityAgreementRegistrationRequest
             individualOwnership?:
               description: ДДУ оформляется в единоличное владение
               properties:
-                member:
+                owner:
                   type: DocflowMember
                 mortgage?:
                   type: Mortgage
