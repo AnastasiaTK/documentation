@@ -18,8 +18,8 @@ signature
 
 требоване signature Содержит:
 
-    * person - физическое лицо :doc:`objects\person` , которое подает документы.
-    * files[] - набор файлов :doc:`objects\filepointer` , которые требуется подписать.
+    * person - физическое лицо :doc:`objects/person` , которое подает документы.
+    * files[] - набор файлов :doc:`objects/filepointer` , которые требуется подписать.
 
 Пример: 
 
