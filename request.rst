@@ -12,11 +12,11 @@
 
 На данный момент API  поддерживает следующие типы документооборотов: 
 
-    object_request - :doc:`object-request` 
+    * object_request - :doc:`object-request` 
 
-    equity_agreement_registration_request - :doc:`equityagreement` 
+    * equity_agreement_registration_request - :doc:`equityagreement` 
 
-    rightmovement_request - :doc:`rightmovement` 
+    * rightmovement_request - :doc:`rightmovement` 
 
 
  

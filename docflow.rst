@@ -13,15 +13,11 @@ HTTP метод: **POST**
 Json запроса для каждого типа документооборота состоит из
 
     * requestId - опциональный внешний идентификатор запроса клиента
-    * options - параметры документооборота, которые определяют необходимую информацию для отправки запроса в Росреестр. Параметры документооборота зависят от его типа ``docflowType``.
+    * options - параметры документооборота, которые соответствуют тируопределяются типом регистрационного действия. Параметры документооборота зависят от его типа ``docflowType``:
 
-На данный момент API  поддерживает следующие типы документооборотов: 
-
-    object_request - :doc:`object-request` 
-
-    equity_agreement_registration_request - :doc:`equityagreement` 
-
-    rightmovement_request - :doc:`rightmovement` 
+        * object_request - :doc:`object-request` 
+        * equity_agreement_registration_request - :doc:`equityagreement` 
+        * rightmovement_request - :doc:`rightmovement` 
 
 
 Пример содания документооборота
