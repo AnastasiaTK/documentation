@@ -97,26 +97,25 @@ AddressElementType
 .. code-block:: bash 
 
         ...
-            "address":{
-              "kladr": "54018000032000100",
-              "region": "Новосибирская область",
-              "city": {
-                "abbreviation": "г",
-                "name":"Новосибирск"
-              },
-              "street": {
-                "abbreviation": "ул",
-                "name":"Челюскинцев"
-              },
-              "house": {
-                "type": "д",
-                "name":"14"
-              },
-              "apartment": {
-                "type": "кв",
-                "name":"81"
-              }
-            }
+            "address": {
+    				"region": "Новосибирская область",
+    				"city" :{
+    					"abbreviation": "г",
+    					"name": "Новосибирск"
+    				},
+    				"street" :{
+    					"abbreviation": "ул",
+    					"name": "Челюскинцев"
+    				},
+    				"house": {
+    					"type": "д",
+    					"name": "14"
+    				},
+    				"apartment": {
+    					"type": "кв",
+    					"name": "81"
+    				}
+    			}
           ...
 
 Пример заполнения адреса по коду ФИАС

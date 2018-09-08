@@ -8,12 +8,7 @@ Representative
 Representative состоит из следующих данных:
 
     * representativeType - тип представителя
-    * person: :doc:`person` описание реквизитов физического лица 
-    * attorney - сведения о доверенности представителя. Заполняется если тип представителя ``representativeType`` доверенное лицо и состоит из следующих данных:
-
-        * type - тип доверенности (powerOfAttorney - доверенность, powerOfAttorneyBankRepresentative - доверенность банковского представителя)
-        * appliedDocument: :doc:`content` описание вложенного файла 
-
+    
 Представитель может относиться к одному из следующих типов ``representativeType``:
 
 +-----------------+--------------------------------------------------------------------------------------------------+
@@ -21,71 +16,63 @@ Representative состоит из следующих данных:
 +=================+==================================================================================================+
 | confidant       | Доверенное лицо *(представительство осуществляется на основании довернности или иного документа)*| 
 +-----------------+--------------------------------------------------------------------------------------------------+
-| authorized      | Уполномоченное лицо *(представительство осуществляется без документа - на основании права)*      |   
+| authorized      | Уполномоченное лицо *(представительство осуществляется на основании права)*                      |   
 +-----------------+--------------------------------------------------------------------------------------------------+
+
+    * person: :doc:`person` описание реквизитов физического лица 
+    * attorney - сведения о документе, подтверждающем полномочия представителя:
+
+        * type - тип документа (powerOfAttorney - доверенность)
+        * appliedDocument: :doc:`content` описание вложенного файла 
+
 
 Пример
 
 .. code-block:: bash 
 
         ...
-        "representative":{
-          "representativeType": "confidant",
+       "representative": {
+          "representativeType": "authorized"
           "person": {
-            "personId": "123",
-            "name": "Тест",
-            "surname": "Тестович",
-            "patronymic": "Тестов",
-            "dateBirth": "1972-04-07",
-            "birthPlace":"Иркутск",
-            "snils":"000-000-000-55",
-            "gender":"male",
-            "identityDocument":{
+            "personId": 198547843892",
+            "name": "Иван",
+            "surname": "Тестов",
+            "dateBirth": "2018-09-04",
+            "birthPlace": "Новосибирск",
+            "snils": "000-000-000 55",
+            "gender": "female",
+            "identityDocument": {
               "documentType": "russPassport",
-              "series": "1234",
               "number": "123456",
-              "issueDate": "2017-01-01",
+              "series": "1234",
+              "issueDate": "2018-09-04",
               "issuer": {
-                "code": "000-005",
-                "name":"МВД"
+                "code": "123-123",
+                "name": "кто-то"
               }
             },
-            "citizenship": "Росийская Федерация",
-            "address":{
-              "kladr": "54018000032000100",
-              "region": "Новосибирская область",
+            "citizenship": "росийская федерация",
+            "address": {
+              "fiasId": "2db55560-13aa-423e-876e-d20beff2d75e",
+              "kladr": "54000001000150600",
+              "region": "Новосибирская",
               "city": {
-                "abbreviation": "г",
-                "name":"Новосибирск"
+                "name": "Новосибирск",
+                "abbreviation": "г"
               },
               "street": {
-                "abbreviation": "ул",
-                "name":"Челюскинцев"
+                "name": "Челюскинцев",
+                "abbreviation": "ул"
               },
               "house": {
-                "type": "д",
-                "name":"14"
+                "name": "14",
+                "type": "д"
               },
               "apartment": {
                 "type": "кв",
-                "name":"81"
-              }
+                "name": "81"
+              },
+              "note": ""
             }
           },
-          "attorney": {
-            "type": "powerOfAttorney",
-            "appliedDocument": {
-              "info":{
-                "type":"pdf",
-                "contentPointer": {
-                  "id":"a9a5cca8-48fb-4f76-838a-7394a965c098",
-                  "contentLink": "https://api.kontur.ru/realty/v1/contents/a9a5cca8-48fb-4f76-838a-7394a965c098"
-                }
-              },
-              "signatures": [{
-                "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-                "contentLink":"https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
-              }]
-            } 
-          }
         }

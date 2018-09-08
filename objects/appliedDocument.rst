@@ -19,7 +19,7 @@ AppliedDocument состоит из следующих данных:
  
 Реквизиты документов: ``series``, ``number``, ``issueDate``, ``issuer``  -  не обязательны для заполнения
 
-Росреестр определяет следующие типы документов:
+Росреестр определяет следующие типы документов ``documentType``:
 
 +-----------------------------------+------------------------------------------------------------------------------------------+
 | Документ                          | Описание                                                                                 | 
@@ -108,14 +108,26 @@ AppliedDocument состоит из следующих данных:
 .. code-block:: bash 
 
         ...
-        "identityDocument":{
-          "documentType": "russPassport",
-          "series": "1234",
+        "appliedDocuments":{
+          "documentType": "marriageCertificate",
           "number": "123456",
           "issueDate": "2017-01-01",
           "issuer": {
               "code": "000-005",
               "name":"МВД"
+          },
+          "content": {
+        	"info": {
+              "type": "pdf",
+              "contentPointer": {
+                "id": "3a8cf2b8-ee9e-47ca-9ff9-75efced2d52e",
+                "contentLink": "https://api.testkontur.ru/realty/v1/contents/3a8cf2b8-ee9e-47ca-9ff9-75efced2d52e"
+              }
+            },
+            "signatures": [{
+        	  "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+             "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
+            }]
           }
         }
         ...
