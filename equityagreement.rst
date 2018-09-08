@@ -75,8 +75,6 @@
    :caption: Описание примеров
 
    Пример 1:  <equity/example>
-   Пример 2:  <rightmovement/example2>
-   Пример 3:  <rightmovement/example3>
 
 .. toctree::
    :name: main
