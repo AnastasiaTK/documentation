@@ -8,7 +8,7 @@
 Параметры (options) документооборота ``object_request`` включают в себя следующие данные:
 
         * type – тип запрашиваемой выписки. 
-        * cadastralNumber – кадастровый номер объекта недвижимости :doc:`objects\cadastranumber`
+        * cadastralNumber – кадастровый номер объекта недвижимости :doc:`objects/cadastranumber`
 
 API Контур.Реестро предоставляет следующие типы выписок:
 
