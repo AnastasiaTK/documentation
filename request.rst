@@ -22,9 +22,9 @@
 
     * rightmovement_request - :doc:`rightmovement` 
 
-    * ecumbrance_request - :doc:`rightmovement` 
+    * ecumbrance_request - :doc:`ecumbrance` 
 
-    * cessationencumbrance - :doc:`rightmovement` 
+    * cessation_encumbrance_request - :doc:`cessationencumbrance` 
 
     * additional_package_request - :doc:`rightmovement`
 
