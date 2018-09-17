@@ -16,9 +16,9 @@
 
     * equity_agreement_registration_request - :doc:`equityagreement` 
 
-    * primary_right_request - :doc:`rightmovement`  
+    * primary_right_request - :doc:`primaryright`  
 
-    * right_assignment_request - :doc:`rightmovement`  
+    * right_assignment_request - :doc:`rightassignment`  
 
     * rightmovement_request - :doc:`rightmovement` 
 
@@ -26,7 +26,7 @@
 
     * cessation_encumbrance_request - :doc:`cessationencumbrance` 
 
-    * additional_package_request - :doc:`rightmovement`
+    * additional_package_request - :doc:`additionalpackage`
 
 
  
