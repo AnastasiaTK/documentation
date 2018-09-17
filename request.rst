@@ -14,9 +14,7 @@
 
     * object_request - :doc:`object-request` 
 
-    * equity_agreement_registration_request - :doc:`equityagreement` 
-
-    * primary_right_request - :doc:`primaryright`  
+    * equity_agreement_registration_request - :doc:`equityagreement`  
 
     * right_assignment_request - :doc:`rightassignment`  
 
