@@ -19,7 +19,7 @@
 
  |image0|_
 
-.. |image0| image:: /img/algoritm.png
+.. |image0| image:: /img/алгоритм.png
 .. _image0: https://reestro.kontur.ru/
 
 .. Hint::
