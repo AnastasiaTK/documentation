@@ -7,9 +7,9 @@
 
 Базовым уровнем интеграции с Реестро является его **HTTP-API** интерфейс.
 
-адрес тестовой площадки: https://api.testkontur.ru
+    * адрес тестовой площадки: https://api.testkontur.ru
 
-адрес боевой площадки: https://api.kontur.ru
+    * адрес боевой площадки: https://api.kontur.ru
 
 
 .. toctree::
