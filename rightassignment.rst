@@ -64,7 +64,7 @@
 Описание типа в Raml
 *************
 
-:doc:`raml/RightAssignmentRequest`
+:doc:`raml/rightAssignmentRequest`
 
 *************
 Результирующие документы
