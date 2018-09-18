@@ -50,6 +50,15 @@
 |  | other                     |:doc:`objects/appliedDocument` []| optional         | массив других документов                                                                               |
 +--+---------------------------+---------------------------------+------------------+--------------------------------------------------------------------------------------------------------+
 
+Описание параметров документооборота можно также посмотреть в Raml  :doc:`raml/equityAgreementRegistrationRequest`
+
+.. toctree::
+   :name: main
+   :maxdepth: 1
+   :caption: Описание примеров
+
+   Пример 1:  <equity/example>
+
 *************
 Результирующие документы
 *************
@@ -68,20 +77,6 @@
 
 Тип документа (старый или новый формат) зависит от региона, на который отправлен запрос.
 
-
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание примеров
-
-   Пример 1:  <equity/example>
-
-.. toctree::
-   :name: main
-   :maxdepth: 1
-   :caption: Описание типа в Raml
-
-   EquityAgreementRegistrationRequest:  <raml/equityAgreementRegistrationRequest>
 
 *************
 Юридическая справка
