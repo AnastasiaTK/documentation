@@ -60,13 +60,11 @@
 
 :doc:`example/right_assignment_example1`
 
-
-
 *************
 Описание типа в Raml
 *************
 
-
+:doc:`raml/RightAssignmentRequest`
 
 *************
 Результирующие документы
