@@ -58,7 +58,7 @@
  Описание примеров
 *************
 
-   :doc:`example/ddu_example2`
+   :doc:`example/ddu_example1`
 
    :doc:`example/ddu_example2`
 
