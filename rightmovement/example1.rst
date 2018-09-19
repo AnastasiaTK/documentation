@@ -12,7 +12,7 @@
         ...
   {
   "requestId": "client-request-12345",
-  "options": {  
+  "options": {
     "rightMovementType": "sale",
     "object": {
       "objectType":"flat",
@@ -91,6 +91,7 @@
         }
       },
       "evidenceOfOwnership": {
+        "objectType": "object",
         "documents": [{
           "documentType": "inheritanceByLaw",
           "number": "1990/1234566543",
@@ -108,8 +109,8 @@
               }
             },
             "signatures": [{
-              "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-              "contentLink": "https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
+              "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+              "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
             }]
           }
         }]
@@ -231,16 +232,12 @@
             }
           },
           "signatures": [{
-            "id": "04855d4a-dfb3-4394-a503-04d07a6be48d",
-            "contentLink": "https://api.kontur.ru/realty/v1/contents/04855d4a-dfb3-4394-a503-04d07a6be48d"
-            },
-            {
-            "id": "c21960ae-c911-4697-b152-f4a922946ac2",
-            "contentLink": "https://api.kontur.ru/realty/v1/contents/c21960ae-c911-4697-b152-f4a922946ac2"
-            },
-            {
-            "id": "ec21960a-c911-4697-b152-f4a922946ac2",
-            "contentLink": "https://api.kontur.ru/realty/v1/contents/ec21960a-c911-4697-b152-f4a922946ac2"
+            "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+            "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
+          },
+          {
+            "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+            "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
           }]
         }
       },
@@ -252,13 +249,14 @@
             "contentPointer": {
               "id": "4bbfef7f-725f-43a6-bf5a-fb4c85c0ccc8",
               "contentLink": "https://api.kontur.ru/realty/v1/contents/4bbfef7f-725f-43a6-bf5a-fb4c85c0ccc8"
-             }
+            }
           },
           "signatures": [{
-            "id": "04855d4a-dfb3-4394-a503-04d07a6be48d",
-             "contentLink": "https://api.kontur.ru/realty/v1/contents/04855d4a-dfb3-4394-a503-04d07a6be48d"
+            "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+            "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
           }]
         }
       }]
     }
+  }
   }
