@@ -53,13 +53,14 @@
 .. tip::
     Описание параметров документооборота можно также посмотреть в Raml  :doc:`raml/equityAgreementRegistrationRequest`
 
- *************
- Описание примеров
- *************
 
-   :doc:`ddu_example2`
-   
-   :doc:`ddu_example2`
+*************
+ Описание примеров
+*************
+
+   :doc:`example/ddu_example2`
+
+   :doc:`example/ddu_example2`
 
 *************
 Результирующие документы
