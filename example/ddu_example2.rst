@@ -138,10 +138,10 @@
                             	"abbreviation": "ул",
                             	"name": "Челюскинцев"
                         	},
-                        "house": {
-                            "type": "д",
-                            "name": "14"
-                        },
+                        	"house": {
+                            	"type": "д",
+                            	"name": "14"
+                        	},
                         	"apartment": {
                             	"type": "кв",
                             	"name": "81"
