@@ -14,10 +14,10 @@
     	Host api.kontur.ru
     	Authorization auth.sid 38f31d7246b148c8abcdf0e240a5e39d
 	  	{
-    	"requestId": "3ca70b51-cbc9-43fd-81c0-2b1621f4b27a",
-		"options": {
-        	"object": [{
-    	  	"objectType": "flat",
+    	  "requestId": "3ca70b51-cbc9-43fd-81c0-2b1621f4b27a",
+		    "options": {
+        	  "object": [{
+    	  				"objectType": "flat",
     	  	"cadastralNumber": "54:35:021060:1733",
     	  	"address": {
     		  	"region": "Новосибирская область",
