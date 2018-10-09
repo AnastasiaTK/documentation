@@ -37,7 +37,9 @@
     		    "type": "кв",
     		    "name": "81"
     		  }
-				}
+
+			  }
+			
       }],
       "developer": {
     	  "developer": {
