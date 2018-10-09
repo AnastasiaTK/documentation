@@ -4,7 +4,8 @@
 Имя ресурса: **/docflows/{docflowId}/files/{fileId}/signatures**
 
 HTTP метод: **POST**
-Необходимо запросить содержимое каждого полученного файла методом ``POST /docflows/{docflowId}/files/{fileId}/signatures``, где
+
+Метод ``POST /docflows/{docflowId}/files/{fileId}/signatures`` позволяет добавить подпись на файл, где
 
      * docflowId: идентификатор документооборота
      * fileId: идентификатор файла

@@ -13,7 +13,7 @@ HTTP метод: **POST**
 Json запроса для каждого типа документооборота состоит из
 
     * requestId - опциональный внешний идентификатор запроса клиента
-    * options - параметры документооборота, определяются его типом ``docflowType``:
+    * options - параметры документооборота, которые определяются его типом ``docflowType``:
 
            * object_request - :doc:`object-request` 
            * equity_agreement_registration_request - :doc:`equityagreement`
