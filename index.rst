@@ -19,8 +19,8 @@
 
    Порядок работы с API <procedure>
    Методы работы с API <methodlist>
-   Данные ответов API <responselist>
    Типы документооборотов <request>
+   Данные ответов API <responselist>
    Объекты данных <objects>
 
 .. toctree::
