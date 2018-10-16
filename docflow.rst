@@ -13,15 +13,10 @@ HTTP метод: **POST**
 Json запроса для каждого типа документооборота состоит из
 
     * requestId - опциональный внешний идентификатор запроса клиента
-    * options - параметры документооборота, которые определяются его типом ``docflowType``:
-    
-        object_request - Запрос выписок из ЕГРН <object-request>
-        equity_agreement_registration_request - Регистрация ДДУ <equityagreement>
-        right_assignment_request Регистрация уступки права <rightassignment>
-        right_movement_request - Регистрация перехода права <rightmovement>
-        ecumbrance_request - Регистрация обременения <ecumbrance>
-        cessation_encumbrance_request - Регистрация снятия обременения <cessationencumbrance>
-        additional_package_request - Отправка дополнительного пакета <additionalpackage>
+    * options - параметры документооборота, которые определяются его типом ``POST /docflows/{docflowType}``
+
+    .. note::
+        Описание параметров докумнтооборотов располагается здесь :doc:`request`
 
 Пример содания документооборота
 
