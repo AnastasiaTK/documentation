@@ -91,7 +91,7 @@ payment
 
 Пример:
 
-.. code-block:: bash
+.. code-block:: json
 
       {
         "requirements":{
