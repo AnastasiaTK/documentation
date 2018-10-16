@@ -25,8 +25,8 @@ signature
 
 .. code-block:: json 
 
-        ...
-        "requirements":{
+        {
+          "requirements":{
           "signature":[{
             "person": {
               "personId": "123",
@@ -76,8 +76,7 @@ signature
               "contentLink":"https://api.kontur.ru/realty/v1/docflows/d20bd506-6325-43e1-b2e4-105ec5d63417/files/c5e78cb0-5234-4bae-9300-9b6d926afbe1"
             }]
           }]
-        }
-        ...
+        }}
 
 *************
 payment

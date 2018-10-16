@@ -19,6 +19,7 @@ Error
 
 
 .. code-block:: json 
+
         {
           "code": "validation",
           "message": "Failed to validate input request",

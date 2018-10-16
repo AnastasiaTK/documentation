@@ -13,13 +13,8 @@ Result
 Пример:
 
 .. code-block:: json 
+
         { 
-          "requestId": "client-request-12345",
-          "docflowId": "d20bd506-6325-43e1-b2e4-105ec5d63417",
-          "docflowType": "encumbranceRequest",
-          "state": "completed",
-          "requestId": "client-request-12345",
-          "options": { <--отправленные условия документооборота--> }
           "result": {
             "files": [{
               "id": "d4959ec6-47e6-4b5a-99ae-9591ec1918ad",
