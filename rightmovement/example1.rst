@@ -7,6 +7,18 @@
     #. продавец (``saler``) регистрирует право собственности возникшее до 1988 года (``evidenceOfOwnership``)
     #. покупатель (``buyer``) приобретает объект недвижимости в долевую собственности (``sharedOwnership``)
 
+
+
+.. code-block:: bash 
+
+        ...
+        
+  POST https://api.testkontur.ru/realty/v1/docflows/right_movement_request
+  Content-Type: application/json
+  Host: api.kontur.ru
+  Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+
+
 .. code-block:: bash 
 
         ...
@@ -258,5 +270,4 @@
         }
       }]
     }
-  }
-  }
+  }}
