@@ -17,10 +17,8 @@ Error
 
 Пример:
 
-.. code-block:: bash 
 
-        HTTP/1.0 400 Bad Request
-        Content-Type: application/json
+.. code-block:: json 
         {
           "code": "validation",
           "message": "Failed to validate input request",

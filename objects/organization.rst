@@ -27,7 +27,7 @@ Organization состоит из следующих данных:
 
 Пример
 
-.. code-block:: bash 
+.. code-block:: json 
 
       ...
       "organisation": {

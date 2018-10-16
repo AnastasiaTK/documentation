@@ -94,7 +94,7 @@ AddressElementType
 
 Пример заполнения структурированного представления адреса
 
-.. code-block:: bash 
+.. code-block:: json 
 
         ...
         "address": {
@@ -120,7 +120,7 @@ AddressElementType
 
 Пример заполнения адреса по коду ФИАС
 
-.. code-block:: bash 
+.. code-block:: json 
 
         ...
             "address":{

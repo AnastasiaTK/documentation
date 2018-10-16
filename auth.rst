@@ -16,6 +16,9 @@ HTTP метод: **POST**
         POST /realty/v1/auth HTTP/1.0
         Host: api.kontur.ru
         Content-Type: application/json
+
+.. code-block:: json 
+
         {
         "login": "email@yandex.ru",
         "password": "123",
@@ -33,6 +36,9 @@ API возвращает пользователю ответ: 200 OK, где в 
 
         HTTP/1.0 200 OK
         Content-Type: application/json
+
+.. code-block:: json 
+
         {
         "userId": "5ee84ac0-eb9a-4b42-b814-2f5f7c27c255",
         "sessionId": "38f31d7246b148c8abcdf0e240a5e39d"

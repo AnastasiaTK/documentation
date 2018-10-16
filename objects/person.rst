@@ -38,7 +38,7 @@ snils
 
 Пример
 
-.. code-block:: bash 
+.. code-block:: json 
 
         ...
         "person": {

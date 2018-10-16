@@ -106,6 +106,9 @@
 
        HTTP/1.0 200 OK
        Content-Type: application/json
+
+.. code-block:: json 
+
        [ 
         { 
           "objectId":"54:35:0:5911",

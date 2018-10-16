@@ -41,10 +41,10 @@ Object состоит из:
 
 Пример:
 
-.. code-block:: bash 
+.. code-block:: json 
 
         ...
-          {
+        {
         "objectType":"flat",
         "usagePurpose": "dwellingAppartment",
         "cadastralNumber": "54:35:021060:1683",

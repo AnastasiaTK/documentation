@@ -12,10 +12,7 @@ Result
 
 Пример:
 
-.. code-block:: bash 
-
-        HTTP/1.0 200 OK
-        Content-Type: application/json
+.. code-block:: json 
         { 
           "requestId": "client-request-12345",
           "docflowId": "d20bd506-6325-43e1-b2e4-105ec5d63417",
