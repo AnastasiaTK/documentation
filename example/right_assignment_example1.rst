@@ -15,6 +15,9 @@
         Content-Type application/json
         Host api.kontur.ru
         Authorization auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+
+.. code-block:: json 
+
         {
         "options": {
           "object": [{
