@@ -18,7 +18,7 @@ Json запроса для каждого типа документооборо�
            * object_request - :doc:`object-request` 
            * equity_agreement_registration_request - :doc:`equityagreement`
            * right_assignment_request - :doc:`rightassignment`
-           * rightmovement_request - :doc:`rightmovement`
+           * right_movement_request - :doc:`rightmovement`
            * ecumbrance_request - :doc:`ecumbrance`
            * cessation_encumbrance_request - :doc:`cessationencumbrance`
            * additional_package_request - :doc:`additionalpackage`
