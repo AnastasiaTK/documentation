@@ -1,18 +1,26 @@
-Пример 1
+Пример
 ================
 
 Пример содержит описание запроса со следующими параметрами:
 
     #. правообладатель (``whoseRightRestricted``) владеет объектом недвижимости в единоличной собственности (``individualOwnership``)
 
+
 .. code-block:: bash 
 
-        ...
+  POST https://api.testkontur.ru/realty/v1/docflows/encumbrance_request
+  Content-Type: application/json
+  Host: api.kontur.ru
+  Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+
+
+.. code-block:: json 
+
     {
     "requestId": "client-request-12345",
     "options": {
       "encumbranceType": "mortgage",
-      "object": [{
+      "object": {
         "objectType": "flat",
         "cadastralNumber": "47:14:1203001:814",
         "address": {
@@ -38,7 +46,7 @@
           "value": "56",
           "unit": "кв.м"
         }
-      }],
+      },
       "whoseRightRestricted": {
         "individualOwnership": {
           "owner": {
@@ -135,17 +143,17 @@
             "info": {
               "type": "pdf",
               "contentPointer": {
-                "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-                "contentLink": "https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
+                "id": "b35ecbab-adde-488f-b01c-7133c90a261e",
+                "contentLink": "https://api.kontur.ru/realty/v1/contents/b35ecbab-adde-488f-b01c-7133c90a261e"
               }
             },
             "signatures": [{
-              "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-              "contentLink": "https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
+              "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+              "contentLink": "https://api.kontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
             },
             {
-              "id": "565bf289-8e05-4b5f-bff9-8fe260427078",
-              "contentLink": "https://api.kontur.ru/realty/v1/contents/565bf289-8e05-4b5f-bff9-8fe260427078"
+              "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+              "contentLink": "https://api.kontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
             }]
           }
         }

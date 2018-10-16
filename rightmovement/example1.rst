@@ -10,8 +10,6 @@
 
 
 .. code-block:: bash 
-
-        ...
         
   POST https://api.testkontur.ru/realty/v1/docflows/right_movement_request
   Content-Type: application/json

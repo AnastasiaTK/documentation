@@ -85,4 +85,4 @@
    :maxdepth: 1
    :caption: Описание примеров
 
-   Пример 1:  <rightmovement/example1>
+   Пример:  <rightmovement/example1>
