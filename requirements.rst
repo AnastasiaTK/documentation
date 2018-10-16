@@ -93,12 +93,14 @@ payment
 
 .. code-block:: bash
 
-        ...
+      {
         "requirements":{
-        "payment": [{
-          "uin": "00000000700486290714",
-          "summ": "700"
-        }]
+          "payment": [{
+            "uin": "00000000700486290714",
+            "summ": "700"
+          }]
+        }
       }
+
 
 

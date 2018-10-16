@@ -108,7 +108,7 @@ AppliedDocument состоит из следующих данных:
 
 .. code-block:: json 
 
-        "appliedDocuments":{
+        {"appliedDocuments":{
           "documentType": "marriageCertificate",
           "number": "123456",
           "issueDate": "2017-01-01",
@@ -129,5 +129,5 @@ AppliedDocument состоит из следующих данных:
              "contentLink": "https://api.testkontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
             }]
           }
-        }
+        }}
 

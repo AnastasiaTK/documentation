@@ -123,14 +123,15 @@ AddressElementType
 
 .. code-block:: json 
 
-        ...
-            "address":{
+        
+          {
+              "address":{
               "fiasId": "2f745e33-020e-4e4b-8d3c-0b145fafc6c4",
               "apartment": {
                 "type": "кв",
                 "name":"81"
               }
             }
-          ...
+          }
 
 

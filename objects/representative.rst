@@ -30,8 +30,7 @@ Representative состоит из следующих данных:
 
 .. code-block:: json 
 
-      {
-       "representative": {
+      { "representative": {
           "representativeType": "authorized"
           "person": {
             "personId": 198547843892",
@@ -71,9 +70,7 @@ Representative состоит из следующих данных:
               "apartment": {
                 "type": "кв",
                 "name": "81"
-              },
-              "note": ""
+              }
             }
           }
-        }
-      }
+        }}
