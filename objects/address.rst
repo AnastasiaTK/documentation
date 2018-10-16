@@ -96,27 +96,28 @@ AddressElementType
 
 .. code-block:: json 
 
-        ...
+
+        {
         "address": {
-    		  "region": "Новосибирская область",
-    		  "city" :{
-    			  "abbreviation": "г",
-    			  "name": "Новосибирск"
-    		  },
-    		  "street" :{
-    			  "abbreviation": "ул",
-    			  "name": "Челюскинцев"
-    		  },
-    		  "house": {
-    			  "type": "д",
-    			  "name": "14"
-    		  },
-    		  "apartment": {
-    			  "type": "кв",
-    			  "name": "81"
+    	  "region": "Новосибирская область",
+    	  "city" :{
+    	    "abbreviation": "г",
+    	    "name": "Новосибирск"
+    	  },
+    	  "street" :{
+    	    "abbreviation": "ул",
+    	    "name": "Челюскинцев"
+    	   },
+    	   "house": {
+    	     "type": "д",
+    	     "name": "14"
+    	  },
+    	  "apartment": {
+    	    "type": "кв",
+    	    "name": "81"
           }
-    	  }
-       ...
+    	}}
+
 
 Пример заполнения адреса по коду ФИАС
 

@@ -43,7 +43,6 @@ Object состоит из:
 
 .. code-block:: json 
 
-        ...
         {
         "objectType":"flat",
         "usagePurpose": "dwellingAppartment",
@@ -76,7 +75,7 @@ Object состоит из:
           "unit": "кв.м"
         }
       }
-      ...
+
 
 
 

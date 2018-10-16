@@ -108,7 +108,6 @@ AppliedDocument состоит из следующих данных:
 
 .. code-block:: json 
 
-        ...
         "appliedDocuments":{
           "documentType": "marriageCertificate",
           "number": "123456",
@@ -131,5 +130,4 @@ AppliedDocument состоит из следующих данных:
             }]
           }
         }
-        ...
 

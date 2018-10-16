@@ -33,9 +33,7 @@ FileSignatures состоит из:
 
 .. code-block:: json 
 
-        ...
-          {
-          "result": {
+           {
             "files": [{
               "id": "d4959ec6-47e6-4b5a-99ae-9591ec1918ad",
               "type": "outdoc",
@@ -46,5 +44,4 @@ FileSignatures состоит из:
                 }]
               }]
             }
-          ...
 

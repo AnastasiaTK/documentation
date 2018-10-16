@@ -40,7 +40,7 @@ snils
 
 .. code-block:: json 
 
-        ...
+        {
         "person": {
           "personId": "12345",
             "name": "Тест",
@@ -81,7 +81,7 @@ snils
                 "name": "81"
               }
             }
-          }
+          }}
 
 *************
 IdentityDocument
