@@ -8,7 +8,7 @@
    * :doc:`objects/docflowmember`
    * :doc:`objects/file`
    * :doc:`objects/filepointer`
-   * :doc:`objects/mortgate`
+   * :doc:`objects/mortgage`
    * :doc:`objects/object`
    * :doc:`objects/organization`
    * :doc:`objects/person`
