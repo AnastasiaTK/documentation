@@ -1,11 +1,6 @@
 Пример
 ================
 
-Пример содержит описание запроса со следующими параметрами:
-
-    #. правообладатель (``whoseRightRestricted``) владеет объектом недвижимости в единоличной собственности (``individualOwnership``)
-
-
 .. code-block:: bash 
         
   POST https://api.testkontur.ru/realty/v1/docflows/cessation_encumbrance_request

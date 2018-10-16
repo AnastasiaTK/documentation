@@ -75,7 +75,7 @@
    :maxdepth: 1
    :caption: Описание примеров
 
-   Пример 1:  <example/ddu_example1>
+   Пример:  <example/ddu_example1>
 
 
 
