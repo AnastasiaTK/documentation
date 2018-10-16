@@ -18,7 +18,6 @@
    :caption: API для взаимодействия с Росреестром
 
    Порядок работы с API <procedure>
-   Структура данных <dateStructure>
    Методы работы с API <methodlist>
    Данные ответов API <responselist>
    Типы документооборотов <request>
