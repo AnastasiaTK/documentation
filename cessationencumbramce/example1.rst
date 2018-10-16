@@ -1,13 +1,21 @@
-Пример 1
+Пример
 ================
 
 Пример содержит описание запроса со следующими параметрами:
 
     #. правообладатель (``whoseRightRestricted``) владеет объектом недвижимости в единоличной собственности (``individualOwnership``)
 
-.. code-block:: bash 
 
-        ...
+.. code-block:: bash 
+        
+  POST https://api.testkontur.ru/realty/v1/docflows/cessation_encumbrance_request
+  Content-Type: application/json
+  Host: api.kontur.ru
+  Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
+
+
+.. code-block:: json 
+
     {
     "requestId": "request-M4M5",
     "options": {
@@ -116,8 +124,8 @@
                     }
                   },
                   "signatures": [{
-                    "id": "bcc80503-7717-4980-848d-79c2d47b4618",
-                    "contentLink": "https://api.kontur.ru/realty/v1/contents/bcc80503-7717-4980-848d-79c2d47b4618"
+                    "id": "d42a9a44-4ebb-40dd-9396-bf33dee9f95b",
+                    "contentLink": "https://api.kontur.ru/realty/v1/contents/d42a9a44-4ebb-40dd-9396-bf33dee9f95b"
                   }]
                 }
               },
