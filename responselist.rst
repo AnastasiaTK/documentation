@@ -1,11 +1,11 @@
 Ответы
 ================
 
-   * Описание новостей :doc:`docflowNews`
-   * Описание документооборота :doc:`docflowNewsItem`
-   * Ошибки :doc:`error`
-   * Результаты документооборота :doc:`result`
-   * Требования к документообороту :doc:`requirements`
+   * :doc:`docflowNews`
+   * :doc:`docflowNewsItem`
+   * :doc:`error`
+   * :doc:`result`
+   * :doc:`requirements`
 
 .. toctree::
    :name: response

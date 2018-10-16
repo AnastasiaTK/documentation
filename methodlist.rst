@@ -1,13 +1,13 @@
 Методы
 ================
   
-   * Авторизация :doc:`auth`
-   * Создание документооборота :doc:`docflow`
-   * Запрос описания документооборота :doc:`getdocflow`
-   * Запрос содержимого файла :doc:`getfile`
-   * Вычитывание новостей :doc:`news`
-   * Отправка документооборота :doc:`postdocflow`
-   * Добавление подписи :doc:`signatures`
+   * :doc:`auth`
+   * :doc:`docflow`
+   * :doc:`getdocflow`
+   * :doc:`getfile`
+   * :doc:`news`
+   * :doc:`postdocflow`
+   * :doc:`signatures`
 
 
 .. toctree::
