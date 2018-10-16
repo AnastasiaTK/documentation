@@ -23,16 +23,14 @@
 
 .. code-block:: bash 
 
-        ...
   POST https://api.testkontur.ru/realty/v1/docflows/additional_package_request
   Content-Type: application/json
   Host: api.kontur.ru
   Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
 
 
-.. code-block:: bash 
+.. code-block:: json 
 
-        ...
     {
       "requestId": "client-request-12345",
       "options": {  
