@@ -52,6 +52,10 @@
 .. code-block:: bash 
 
        POST /v1/cadastre/suggest
+       Content-Type: application/json
+
+.. code-block:: json 
+
        {
         "region": {
           "name": "Новосибирский"
