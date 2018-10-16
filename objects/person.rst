@@ -125,7 +125,7 @@ IdentityDocument состоит из следующих данных:
 
 .. code-block:: bash 
 
-        {
+      {
         "identityDocument":{
           "documentType": "russPassport",
           "series": "1234",
@@ -135,4 +135,5 @@ IdentityDocument состоит из следующих данных:
               "code": "000-005",
               "name":"МВД"
           }
-        }}
+        }
+      }
