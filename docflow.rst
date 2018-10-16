@@ -13,10 +13,11 @@ HTTP метод: **POST**
 Json запроса для каждого типа документооборота состоит из
 
     * requestId - опциональный внешний идентификатор запроса клиента
-    * .. toctree::
-        :name: method
+    * options - параметры документооборота, которые определяются его типом ``docflowType``:
+
+        :name: docflowType
         :maxdepth: 1
-        :caption: options - параметры документооборота, которые определяются его типом ``docflowType``:
+        :caption: 
         :glob:
         
         object_request - Запрос выписок из ЕГРН <object-request>
