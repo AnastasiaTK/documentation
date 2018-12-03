@@ -1,9 +1,9 @@
 Отправка дополнительного пакета
 ================
 
-Тип Документооборота (docflowType): *additional_package_request*
+Тип Документооборота (docflowType): *additional_packet_request*
 
-Параметры (options) документооборота ``additional_package_request`` включают в себя следующие данные:
+Параметры (options) документооборота ``additional_packet_request`` включают в себя следующие данные:
 
   **docflowId** ``Guid`` :  идентификатор документооборота, к которому отправляет дополнительный пакет
 
@@ -23,7 +23,7 @@
 
 .. code-block:: bash 
 
-  POST https://api.testkontur.ru/realty/v1/docflows/additional_package_request
+  POST https://api.testkontur.ru/realty/v1/docflows/additional_packet_request
   Content-Type: application/json
   Host: api.kontur.ru
   Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d

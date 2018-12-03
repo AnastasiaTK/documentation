@@ -25,7 +25,7 @@
         right_movement_request - Регистрация перехода права <rightmovement>
         ecumbrance_request - Регистрация обременения <ecumbrance>
         cessation_encumbrance_request - Регистрация снятия обременения <cessationencumbrance>
-        additional_package_request - Отправка дополнительного пакета <additionalpackage>
+        additional_packet_request - Отправка дополнительного пакета <additionalpackage>
 
 
  
