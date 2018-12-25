@@ -10,7 +10,7 @@ Share состоит из:
     * owner: :doc:`docflowmember` описания собственника 
     * share:  доля собственника в долевой собственности:
 
-        * numerator: ``string`` числителя
+        * denominator: ``string`` числителя
         * denumerator: ``string`` знаменателя
 
 
