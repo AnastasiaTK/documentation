@@ -34,7 +34,7 @@ HTTP метод: **POST**
         Authorization: auth.sid 38f31d7246b148c8abcdf0e240a5e39d
 
 
-В случае успешной загрузки контента в теле ответа содержится указатель на содержимое файла :doc:`objects/content`.
+В случае успешной загрузки контента в теле ответа содержится указатель на содержимое файла `ContentPointer <https://docsmy.readthedocs.io/ru/latest/objects/content.html#contentpointer>`_ .
 В заголовке ответа ``Location`` находится Ссылка на контент
 
 
