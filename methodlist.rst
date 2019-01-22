@@ -8,6 +8,7 @@
    * :doc:`news`
    * :doc:`postdocflow`
    * :doc:`signatures`
+   * :doc:`postcontent`
 
 
 .. toctree::
@@ -22,5 +23,6 @@
    Запрос содержимого файла <getfile>
    Вычитывание новостей <news>
    Отправка документооборота <postdocflow>
-   Добавление подписи <signatures>
+   Добавление подписи на заявление <signatures>
+   Загрузка контента <postcontent>
 
