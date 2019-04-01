@@ -10,6 +10,8 @@
    * :doc:`signatures`
    * :doc:`postcontent`
    * :doc:`getcontent`
+   * :doc:`getcontent`
+   * :doc:`signaturelink`
 
 
 .. toctree::
@@ -24,7 +26,8 @@
    Запрос содержимого файла <getfile>
    Вычитывание новостей <news>
    Отправка документооборота <postdocflow>
-   Добавление подписи на заявление <signatures>
+   Добавление подписи на заявление бинарным файлом <signatures>
+   Добавление подписи на заявление ссылкой на файл <signaturelink>
    Загрузка контента <postcontent>
    Получение контента <getcontent>
 
